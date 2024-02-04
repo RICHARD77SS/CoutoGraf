@@ -21,6 +21,9 @@ export const Content = styled.div`
   align-items: center;
   justify-content:center;
   text-align: center;
+  @media (max-width: 768px){
+    flex-direction: column-reverse;
+  }
 
 `
 export const Border = styled.div`
