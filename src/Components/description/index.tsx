@@ -8,8 +8,6 @@ const Description = () => {
         <p>Somo uma empresa de comunicação visual que esta a mais de 20 anos no mercado, visando sempre a satisfação do cliente atravez de um trabalho impecavel e detalhado.</p>
       </Content>
       <Wrapper>
-
-
         <Box>
           <Flex>
             <Image>

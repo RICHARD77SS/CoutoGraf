@@ -13,6 +13,7 @@ export const Container = styled.div`
   border-radius: 50px;
   background-image: url('https://fv5-2.failiem.lv/thumb_show.php?i=p8e7kk9w3n&view&v=1');
   background-size: contain;
+  z-index: 999;
   a {
     width: 100px;
     height: 100px;

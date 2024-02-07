@@ -20,6 +20,9 @@ export const Content = styled.div`
   align-items: center;
   justify-content:start;
   text-align: center;
+  @media (max-width: 425px){
+    width:100%;
+  }
   h2 {
     font-size: 2rem;
     color: #000;
@@ -70,6 +73,9 @@ export const Image = styled.div`
   justify-content:center;
   @media(max-width: 768px){
     width: 48%;
+  }
+  @media (max-width:425px){
+    width: 80%;
   }
   img {
     width: 100%;

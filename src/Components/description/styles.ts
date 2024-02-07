@@ -24,6 +24,9 @@ export const Content = styled.div`
   justify-content:center;
   text-align: center;
 
+  @media (max-width: 425px){
+    width: 100%;
+  }
   h2 {
     font-size: 1.5rem;
     color: #FFD600;
@@ -70,6 +73,7 @@ export const Box2 = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content:center;
+  
   :nth-child(1){
     border-radius: 10rem;
     justify-content: center;
@@ -103,6 +107,7 @@ export const Box3 = styled.div`
      border-radius:  150px 150px 150px 150px ;
   }
   }
+  
 `
 export const Flex = styled.div`
   width: 70%;
@@ -117,6 +122,9 @@ export const Flex = styled.div`
   padding: 3rem 0 3rem 0rem;
   border-radius: 0 10rem 10rem 0;
   box-shadow: 5px 5px 15px 10px rgba(0,0,0,0.5);
+  @media (max-width: 425px){
+    width: 90%;
+  }
 `
 export const Image = styled.div`
   width: 300px;
